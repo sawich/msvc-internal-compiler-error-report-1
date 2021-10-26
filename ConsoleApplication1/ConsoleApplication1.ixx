@@ -5,7 +5,7 @@
 
 import sdk.base_plugin;
 
-class plugin final : public sdk::base_plugin
+class plugin final : public sdk::base_plugin<plugin>
 {
 
 };
