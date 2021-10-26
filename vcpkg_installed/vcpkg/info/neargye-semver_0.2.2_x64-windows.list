@@ -1,0 +1,8 @@
+x64-windows/
+x64-windows/include/
+x64-windows/include/neargye/
+x64-windows/include/neargye/semver.hpp
+x64-windows/share/
+x64-windows/share/neargye-semver/
+x64-windows/share/neargye-semver/copyright
+x64-windows/share/neargye-semver/vcpkg_abi_info.txt

@@ -1,0 +1,57 @@
+Package: neargye-semver
+Version: 0.2.2
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 3ae73961906a25585d8a1ca2dc9b6cbac1fdf58f58cb5fb18958c52deaeca3c8
+Description: C++17 header-only dependency-free versioning library complying with Semantic Versioning 2.0.0
+Type: Port
+Status: install ok installed
+
+Package: range-v3
+Version: 0.11.0
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 21e6cb17d1fe09d4f1e39a5e09b909905bb2e1f1a0f5d0b858872e6324aa1ea3
+Description: Range library for C++11/14/17.
+Type: Port
+Status: install ok installed
+
+Package: vcpkg-cmake-config
+Version: 2021-05-22
+Port-Version: 1
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 22a1ba6320e4fc7fd9351f9514c48af568069de7822137472d31ee54b2f560ac
+Type: Port
+Status: install ok installed
+
+Package: vcpkg-cmake
+Version: 2021-07-30
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 835b6d7d899bb3606ff35e0f5cbcca79e0e94aaaa50570588b09ceaef49dad81
+Type: Port
+Status: install ok installed
+
+Package: fmt
+Version: 7.1.3
+Port-Version: 5
+Depends: vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: eebe91864d720d4443b13f443c33e51c7d8ba7ddbc45a19dd9c75cf249e7d82f
+Description: Formatting library for C++. It can be used as a safe alternative to printf or as a fast alternative to IOStreams.
+Type: Port
+Status: install ok installed
+
+Package: spdlog
+Version: 1.9.0
+Port-Version: 1
+Depends: fmt, vcpkg-cmake, vcpkg-cmake-config
+Architecture: x64-windows
+Multi-Arch: same
+Abi: 9c8e5538c3ab17f7a8343923ce7baa96b7f8bf36d6e3ab4f68ffad911f17a41b
+Description: Very fast, header only, C++ logging library
+Type: Port
+Status: install ok installed
+
